@@ -27,7 +27,7 @@ class madlibs:
                 async with session.get(tempUrl) as resp:
                     data[type] = await resp.json()
 
-        sentence = 'The elephant tried to ' + data['verb'] + ' the ' + data['noun'] + ', but it was too ' + data['adjective'] + '.'
+        sentence = 'The ' + data['noun'] + ' tried to ' + data['verb'] + ', but it was too ' + data['adjective'] + '.'
 
         return sentence
 
