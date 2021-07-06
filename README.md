@@ -1,6 +1,6 @@
 # madlibs
 
-To test, open GitBash, cd to a folder of your choice, and copy/paste the following....
+To test, open terminal, cd to a folder of your choice, and copy/paste the following....
 
 git clone https://github.com/jakekirsch2/madlibs.git  
 docker build -t madlibs .  
