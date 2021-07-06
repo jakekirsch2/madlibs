@@ -1,17 +1,6 @@
 import aiohttp
 
 class madlibs:
-    # def main():
-    #     url = 'https://reminiscent-steady-albertosaurus.glitch.me/'
-
-
-    #     adjective = requests.get(url=url + 'adjective').text.replace('"','')
-    #     verb = requests.get(url=url + 'verb').text.replace('"','')
-    #     noun = requests.get(url=url + 'noun').text.replace('"','')
-
-    #     sentence = 'The elephant tried to ' + verb + ' the ' + noun + ', but it was too ' + adjective + '.'
-
-    #     return sentence
     async def main():
 
         data = {}
@@ -30,5 +19,3 @@ class madlibs:
         sentence = 'The ' + data['noun'] + ' tried to ' + data['verb'] + ', but it was too ' + data['adjective'] + '.'
 
         return sentence
-
-# print(asyncio.run(madlibs.main()))
